@@ -1,0 +1,167 @@
+body {
+    background: #464f54;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+​@font-face {
+    font-family: 'Icomoon';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../icomoon/fonts/icomoon.woof');
+}
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+​
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+​
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+​
+a {
+    text-decoration: underline;
+    outline: none;
+}
+​
+a:hover {
+    text-decoration: none;
+}
+h5 {
+    text-transform: uppercase;
+    color: #b4b4b4;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+h3 {
+    color: #8f8f8f;
+    font-size: 22px;
+    font-style: italic;
+    padding: 5px 0 50px 0;
+    font-family: 'Georgia', sans-serif;
+}
+h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #000;
+    padding: 30px 0 0 0;
+    font-family: 'Myriad Pro', sans-serif;
+}
+p {
+    line-height: 27px;
+    font-size: 20px;
+}
+.page {
+    width: 100%;
+    max-width: 800px;
+    background: #fff;
+    margin: 150px auto;
+    border: 1px solid #464f54;
+    box-sizing: border-box;;
+}
+.head_box {
+    position: relative;
+}
+.head_title {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 550px;
+    background: #181818;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 0 5px 50px;
+}
+.like_tears {
+    font-family: 'Myriad Pro', sans-serif;
+}
+.head_line {
+    height: 2px;
+    background: #303030;
+    width: 100%;
+    margin: 6px 0 20px 0;
+}
+.all_main_text {
+    padding: 150px 100px 50px 120px;
+}
+.yellow_bord {
+    background: #fbc02d;
+    color: #fff;
+    font-size: 20px;
+    width: 500px;
+    position: absolute;
+    top: 55px;
+    right: 0;
+}
+ul li {
+    list-style: none;
+    display: inline-flex;
+    padding: 0 5px;
+    opacity: 0.5;
+}
+ul li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.icon-A,
+.icon-T,
+.icon-img,
+.icon-bold,
+.icon-italic,
+.icon-underline,
+.icon-align-justify,
+.icon-align-left,
+.icon-align-center,
+.icon-align-right {
+    font-size: 25px;
+    font-family: 'Icomoon';
+    font-style: normal;
+}
+
+.icon-A:before {
+    content: '\ea6d';
+}
+.icon-T:before {
+    content: '\ea61';
+}
+.icon-img:before {
+    content: '\e90d';
+}
+.icon-bold:before {
+    content: '\ea62';
+}
+.icon-italic:before {
+    content: '\ea64';
+}
+.icon-underline:before {
+    content: '\ea63';
+}
+.icon-align-justify:before {
+    content: '\e900';
+}
+.icon-align-left:before {
+    content: '\e902';
+}
+.icon-align-center:before {
+    content: '\e901';
+}
+.icon-align-right:before {
+    content: '\e903';
+}
